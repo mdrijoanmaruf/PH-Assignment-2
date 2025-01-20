@@ -23,6 +23,13 @@ li {
   list-style: none;
 }
 
+.text{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 /* Nav bar */
 .mobile {
   display: none;
@@ -80,6 +87,7 @@ li {
   font-weight: 700;
 }
 
+
 .about a {
   color: rgb(1, 172, 253);
   font-family: Quicksand;
@@ -102,3 +110,44 @@ li {
 }
 
 /* Hero Section */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero h2{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.blue-span{
+    color: rgb(254, 163, 1);
+}
+
+.yellow-span{
+    color: rgb(1, 172, 253);
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.btn-enroll{
+    padding: 10px 47px;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: 2px solid black;
+}
+
+.btn-enroll:hover{
+    background-color: white;
+    color: black;
+}

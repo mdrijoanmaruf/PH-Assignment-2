@@ -1,8 +1,11 @@
 @media screen and (max-width: 680px) {
     /* Sharend style */
-   section{
+   section , .hero{
         width: calc(100% - 30px);
         margin: 0px auto;
+    }
+    img{
+        width: 100%;
     }
 
 
@@ -30,6 +33,29 @@
 
     .ham{
         width: 35px;
+    }
+
+    /* Hero section */
+    .hero{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .left h2{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
 }
