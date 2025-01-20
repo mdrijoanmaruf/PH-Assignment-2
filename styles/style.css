@@ -10,7 +10,8 @@
 
 /* Shared Style */
 header,
-.curriculum {
+.curriculum,
+.story-container {
   margin: 0px auto;
   max-width: 1280px;
 }
@@ -21,6 +22,10 @@ a {
 
 li {
   list-style: none;
+}
+
+img {
+  width: 100%;
 }
 
 .text {
@@ -112,6 +117,7 @@ li {
 
 .hero {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
@@ -236,25 +242,154 @@ li {
   font-size: 46px;
   font-weight: 700;
 }
-.arrow-container{
-    display: flex;
-    justify-content: center;
+.arrow-container {
+  display: flex;
+  justify-content: center;
 }
 
-.arrow-container div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
+.arrow-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 60px auto;
 }
 
-.arrow-container img{
-    width: 50px;
+.arrow-container button {
+  padding: 20px;
+  border-radius: 50%;
+  border: none;
+  background: rgb(254, 163, 1);
 }
 
-.arrow-container button{
-    padding: 20px;
-    border-radius: 50%;
-    border: none;
-    background: rgb(254, 163, 1);
+.fa-solid {
+  font-size: 24px;
+  color: white;
+}
+
+/* Our Stories */
+.stories {
+  background: url("../assets/bg.png"),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+
+.story-container > h2 {
+  padding-top: 60px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.all-story {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 80px;
+  padding-bottom: 80px;
+  gap: 40px;
+}
+
+.story-card {
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.story-details {
+  margin: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.text3 {
+  color: rgb(102, 102, 102);
+  font-size: 15.34px;
+  font-weight: 500;
+}
+
+.story-card > button {
+  border-radius: 47.93px;
+  background: rgb(60, 216, 232);
+  margin-left: 34px;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: -150px;
+  color: white;
+}
+
+.date {
+  margin-left: 34px;
+  border-radius: 47.93px;
+  background: rgb(60, 216, 232);
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  margin-top: -30px;
+  position: relative;
+  color: white;
+  z-index: 3;
+}
+
+.story-card > img {
+  position: relative;
+}
+
+.multi-story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.card22 {
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.card22 > img{
+    position: relative;
+}
+
+.text4{
+    margin: 34px;
+    font-size: 17px;
+font-weight: 700;
+}
+
+
+
+.date2{
+    border-radius: 47.93px;
+background: rgb(149, 178, 38);
+    width: 200px;
+    padding: 15px;
+    color: white;
+    position: relative;
+    z-index: 4;
+    margin-left: 34px;
+    margin-top: -32px;
+}
+
+.date-blue{
+  background: rgb(93, 88, 240);
+}
+
+.btn-view-container{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.btn-view-container button{
+  border-radius: 12px;
+background: rgb(17, 17, 17);
+  padding: 10px 30px;
+  border: 2px solid black;
+  color: white;
+  font-size: 20px;
+font-weight: 700;
 }
