@@ -11,7 +11,7 @@
 /* Shared Style */
 header,
 .curriculum,
-.story-container {
+.story-container , .foot {
   margin: 0px auto;
   max-width: 1280px;
 }
@@ -393,3 +393,61 @@ background: rgb(17, 17, 17);
   font-size: 20px;
 font-weight: 700;
 }
+
+
+
+/* Footer Section */
+footer{
+  padding: 175px 0;
+  background: rgb(1, 172, 253);
+  color: white;
+}
+
+.kids-edu > div{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+}
+
+.foot{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.kids-edu h2{
+  font-size: 42px;
+}
+
+
+.kids-edu p{
+  color: white;
+  margin-top: 20px;
+}
+
+.foot-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foot-nav ul{
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  gap: 12px;
+  font-size: 20px;
+font-weight: 500;
+}
+
+
+.social img{
+  width: 40px;
+}
+
+.social > div{
+  margin-top: 24px;
+}
+
+

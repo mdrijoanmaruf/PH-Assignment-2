@@ -1,7 +1,8 @@
 @media screen and (max-width: 680px) {
   /* Sharend style */
-  section,
-  .hero {
+  .hero,
+.curriculum,
+.story-container , .foot {
     width: calc(100% - 30px);
     margin: 0px auto;
   }
@@ -65,5 +66,52 @@
 
   .container {
     flex-direction: column;
+  }
+
+  /* Our stories */
+  .story-card{
+    display: none;
+  }
+
+  .all-story{
+    grid-template-columns: 1fr;
+  }
+  .multi-story{
+    gap: 10px;
+  }
+
+  .date2{
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 12px;
+    width: 130px;
+    margin-top: -22px;
+  }
+
+  .text4{
+    margin: 10px;
+  }
+
+
+  /* Footer */
+  .foot{
+    grid-template-columns: 1fr;
+  }
+
+  .kids-edu p{
+    text-align: left;
+  }
+
+  .foot-nav{
+    align-items: flex-start;
+    margin-top: 34px;
+  }
+
+  .social{
+    margin-top: 34px;
+  }
+
+  footer{
+    padding: 100px 0;
   }
 }
