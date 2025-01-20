@@ -1,0 +1,35 @@
+@media screen and (max-width: 680px) {
+    /* Sharend style */
+   section{
+        width: calc(100% - 30px);
+        margin: 0px auto;
+    }
+
+
+    /* Nav bar */
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile > hr{
+        border: 0.5px solid rgb(254, 163, 1);
+    }
+
+    .mobile-c{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        width: calc(100% - 30px);
+        margin: 0px auto;
+    }
+
+    .ham{
+        width: 35px;
+    }
+
+}
