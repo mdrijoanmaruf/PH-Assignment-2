@@ -1,8 +1,9 @@
 @media screen and (max-width: 680px) {
   /* Sharend style */
   .hero,
-.curriculum,
-.story-container , .foot {
+  .curriculum,
+  .story-container,
+  .foot {
     width: calc(100% - 30px);
     margin: 0px auto;
   }
@@ -69,18 +70,18 @@
   }
 
   /* Our stories */
-  .story-card{
+  .story-card {
     display: none;
   }
 
-  .all-story{
+  .all-story {
     grid-template-columns: 1fr;
   }
-  .multi-story{
+  .multi-story {
     gap: 10px;
   }
 
-  .date2{
+  .date2 {
     margin-left: 10px;
     padding: 10px;
     font-size: 12px;
@@ -88,30 +89,42 @@
     margin-top: -22px;
   }
 
-  .text4{
+  .text4 {
     margin: 10px;
   }
 
-
   /* Footer */
-  .foot{
+  .foot {
     grid-template-columns: 1fr;
   }
 
-  .kids-edu p{
+  .kids-edu p {
     text-align: left;
   }
 
-  .foot-nav{
+  .foot-nav {
     align-items: flex-start;
     margin-top: 34px;
   }
 
-  .social{
+  .social {
     margin-top: 34px;
   }
 
-  footer{
+  footer {
     padding: 100px 0;
+  }
+
+  /* Fixed */
+  .arrow-container {
+    display: none;
+  }
+
+  .story-container h2{
+    font-size: 30px;
+  }
+
+  .curriculum > h2{
+    font-size: 30px;
   }
 }
