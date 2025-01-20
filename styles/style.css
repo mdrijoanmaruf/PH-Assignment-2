@@ -10,7 +10,7 @@
 
 /* Shared Style */
 header,
-section {
+.curriculum {
   margin: 0px auto;
   max-width: 1280px;
 }
@@ -23,11 +23,11 @@ li {
   list-style: none;
 }
 
-.text{
-    color: rgb(17, 17, 17);
-    font-family: Quicksand;
-    font-size: 20px;
-    font-weight: 400;
+.text {
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /* Nav bar */
@@ -87,7 +87,6 @@ li {
   font-weight: 700;
 }
 
-
 .about a {
   color: rgb(1, 172, 253);
   font-family: Quicksand;
@@ -111,43 +110,151 @@ li {
 
 /* Hero Section */
 
-.hero{
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero h2 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.blue-span {
+  color: rgb(254, 163, 1);
+}
+
+.yellow-span {
+  color: rgb(1, 172, 253);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.btn-enroll {
+  padding: 10px 47px;
+  border-radius: 12px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  border: 2px solid black;
+}
+
+.btn-enroll:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Standard Curriculum */
+
+.standard {
+  background: url("../assets/bg.png") no-repeat top left;
+
+  background-repeat: no-repeat;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+      180deg,
+      rgb(222, 245, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  padding: 60px 30px;
+  border-radius: 18.86px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border: 0.94px solid rgb(222, 245, 255);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 80px auto;
+  align-items: center;
+}
+
+.readmore {
+  color: rgb(100, 200, 255);
+  font-weight: 700;
+}
+
+.text2 {
+  color: rgb(128, 128, 128);
+  font-size: 15.09px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.card2 {
+  border: 0.94px solid rgb(255, 244, 220);
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(255, 244, 220),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+
+.readmore2 {
+  color: rgb(240, 170, 0);
+}
+
+.card3 {
+  border: 0.94px solid rgb(242, 232, 255);
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(238, 225, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+
+.readmore3 {
+  color: rgb(135, 0, 255);
+}
+
+.curriculum h2 {
+  text-align: center;
+  margin-top: 80px;
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 46px;
+  font-weight: 700;
+}
+.arrow-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.arrow-container div{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 12px;
 }
 
-.hero h2{
-    font-size: 56px;
-    font-weight: 700;
+.arrow-container img{
+    width: 50px;
 }
 
-.blue-span{
-    color: rgb(254, 163, 1);
-}
-
-.yellow-span{
-    color: rgb(1, 172, 253);
-}
-
-.left{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.btn-enroll{
-    padding: 10px 47px;
-    border-radius: 12px;
-    font-size: 20px;
-    background-color: black;
-    color: white;
-    font-weight: 700;
-    border: 2px solid black;
-}
-
-.btn-enroll:hover{
-    background-color: white;
-    color: black;
+.arrow-container button{
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(254, 163, 1);
 }

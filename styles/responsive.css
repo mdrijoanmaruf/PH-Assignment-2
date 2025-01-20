@@ -1,61 +1,69 @@
 @media screen and (max-width: 680px) {
-    /* Sharend style */
-   section , .hero{
-        width: calc(100% - 30px);
-        margin: 0px auto;
-    }
-    img{
-        width: 100%;
-    }
+  /* Sharend style */
+  section,
+  .hero {
+    width: calc(100% - 30px);
+    margin: 0px auto;
+  }
+  img {
+    width: 100%;
+  }
 
+  /* Nav bar */
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    flex-direction: column;
+  }
 
-    /* Nav bar */
-    .desktop{
-        display: none;
-    }
-    .mobile{
-        display: flex;
-        flex-direction: column;
-    }
+  .mobile > hr {
+    border: 0.5px solid rgb(254, 163, 1);
+  }
 
-    .mobile > hr{
-        border: 0.5px solid rgb(254, 163, 1);
-    }
+  .mobile-c {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    width: calc(100% - 30px);
+    margin: 0px auto;
+  }
 
-    .mobile-c{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 0;
-        width: calc(100% - 30px);
-        margin: 0px auto;
-    }
+  .ham {
+    width: 35px;
+  }
 
-    .ham{
-        width: 35px;
-    }
+  /* Hero section */
+  .hero {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-    /* Hero section */
-    .hero{
-        flex-direction: column-reverse;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+  .left h2 {
+    font-size: 32px;
+    text-align: center;
+  }
 
-    .left h2{
-        font-size: 32px;
-        text-align: center;
-    }
+  .text {
+    text-align: center;
+  }
 
-    .text{
-        text-align: center;
-    }
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .left{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  /* standard curriculum */
+  .curriculum h2 {
+    font-size: 26px;
+  }
 
+  .container {
+    flex-direction: column;
+  }
 }
