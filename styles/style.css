@@ -82,6 +82,15 @@ img {
   border: 2px solid rgb(254, 163, 1);
 }
 
+.navul a {
+  transition: text-decoration 1s;
+}
+
+.navul a:hover {
+  text-decoration: underline;
+}
+
+
 .btn:hover {
   background-color: white;
   color: rgb(254, 163, 1);
@@ -450,6 +459,20 @@ font-weight: 500;
   margin-top: 24px;
 }
 
+
+/* Marquee */
+marquee{
+  font-size: 24px;
+  font-weight: 500;
+  padding: 24px;
+  color: rgb(102, 102, 102);
+  
+}
+
+.view:hover{
+  background-color: white;
+  color: black;
+}
 
 
 
